@@ -1,0 +1,259 @@
+
+/* JAVA SCRIPT */
+.box_js {
+    background-color: rgb(15, 15, 15);
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+
+
+}
+.box_js:hover {
+    width: 600px;
+    height: 100px;
+    border-radius: 12px;
+    padding: 20px;
+
+}
+.box_js img {
+    justify-content: center;
+    align-items: left;
+    transition: 1s;
+
+}
+.box_js:hover img {
+    width: 100px;
+    height: 100px;
+}
+.box_js p {
+    height: 0;
+    visibility: hidden;
+    color: rgb(255, 225, 52);
+    top: 0;
+    font-size: 14px;
+    transition-delay: .6s initial;
+
+
+}
+.box_js:hover p {
+    width: 400px;
+    visibility: visible;
+    height: 100px;
+}
+/* HTML */
+.box_html {
+    background-color: rgb(15, 15, 15);
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+
+
+}
+.box_html:hover {
+    width: 600px;
+    height: 100px;
+    border-radius: 12px;
+    padding: 20px;
+
+}
+.box_html img {
+    justify-content: center;
+    align-items: left;
+    transition: 1s;
+
+}
+.box_html:hover img {
+    width: 100px;
+    height: 100px;
+}
+.box_html p {
+    height: 0;
+    visibility: hidden;
+    color: rgb(189, 130, 42);
+    top: 0;
+    font-size: 14px;
+    transition-delay: .6s initial;
+
+
+}
+.box_html:hover p {
+    width: 400px;
+    visibility: visible;
+    height: 100px;
+}
+/* CSS */
+.box_css {
+    background-color: rgb(15, 15, 15);
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+
+
+}
+.box_css:hover {
+    width: 600px;
+    height: 100px;
+    border-radius: 12px;
+    padding: 20px;
+
+}
+.box_css img {
+    justify-content: center;
+    align-items: left;
+    transition: 1s;
+
+}
+.box_css:hover img {
+    width: 100px;
+    height: 100px;
+}
+.box_css p {
+    height: 0;
+    visibility: hidden;
+    color: rgb(26, 110, 167);
+    top: 0;
+    font-size: 14px;
+    transition-delay: .6s initial;
+
+
+}
+.box_css:hover p {
+    width: 400px;
+    visibility: visible;
+    height: 100px;
+}
+/* PHP */
+
+.box_php {
+    background-color: rgb(15, 15, 15);
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.box_php:hover {
+    width: 600px;
+    height: 100px;
+    border-radius: 12px;
+    padding: 20px;
+
+}
+.box_php img {
+    justify-content: center;
+    align-items: left;
+    transition: 1s;
+    width: 40px;
+    height: 40px;
+}
+.box_php:hover img {
+    width: 100px;
+    height: 100px;
+}
+.box_php p {
+    height: 0;
+    visibility: hidden;
+    color: rgb(182, 182, 182);
+    top: 0;
+    font-size: 14px;
+    transition-delay: .6s initial;
+    margin-left: 20px;
+
+
+}
+.box_php:hover p {
+    width: 400px;
+    visibility: visible;
+    height: 100px;
+}
+/* REACT */
+
+.box_react {
+    background-color: rgb(15, 15, 15);
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.box_react:hover {
+    width: 600px;
+    height: 100px;
+    border-radius: 12px;
+    padding: 20px;
+
+}
+.box_react img {
+    justify-content: center;
+    align-items: left;
+    transition: 1s;
+    width: 40px;
+    height: 40px;
+}
+.box_react:hover img {
+    width: 100px;
+    height: 100px;
+}
+.box_react p {
+    height: 0;
+    visibility: hidden;
+    color: rgb(154, 203, 238);
+    top: 0;
+    font-size: 14px;
+    transition-delay: .6s initial;
+    margin-left: 20px;
+
+
+}
+.box_react:hover p {
+    width: 400px;
+    visibility: visible;
+    height: 100px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 483px) {
+    .box_js:hover , .box_css:hover, .box_html:hover, .box_php:hover, .box_php:hover, .box_react:hover {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+
+
